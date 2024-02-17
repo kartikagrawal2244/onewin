@@ -8,10 +8,13 @@
 }
 
 .onewin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     width: 500px;
-    margin: 0 auto;
     text-align: center;
     padding: 20px 30px;
+    transform: translate(-50% , -50%);
 }
 
 .onewin img {
@@ -31,15 +34,13 @@
     font-size: 1.1rem;
     line-height: 1.7rem;
     font-weight: 500;
-    color: #cdd1db;
+    text-transform: capitalize;
 }
 
 .onewin p {
     font-size: 1.1rem;
     line-height: 2rem;
     font-weight: 500;
-    color: #cdd1db;
-    margin-bottom: 35px;
 }
 
 .onewin a {
@@ -54,8 +55,13 @@
     border-radius: 8px;
 }
 
+.onewin a:hover{
+    background-color: #ffffff ;
+    color: rgba(24, 23, 33, .7);
+}
+
 .onewin h6 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.3rem;
     font-weight: 400;
 }
