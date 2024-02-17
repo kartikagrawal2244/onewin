@@ -1,0 +1,61 @@
+* {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.onewin {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.onewin img {
+    width: 7.6rem;
+    border-radius: 100px;
+}
+
+.onewin h1 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+}
+
+.onewin h2 {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    font-weight: 500;
+    color: #cdd1db;
+}
+
+.onewin p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: #cdd1db;
+    margin-bottom: 35px;
+}
+
+.onewin a {
+    display: block;
+    text-decoration: none;
+    padding: 0.9rem 1.2rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 500;
+    background-color: rgba(24, 23, 33, .7);
+    border: 1px solid #454b5f;
+    border-radius: 8px;
+}
+
+.onewin h6 {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    font-weight: 400;
+}
